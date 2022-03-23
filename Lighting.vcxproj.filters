@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Systems\Window.h" />
+    <ClInclude Include="Systems\Camera.h" />
+    <ClInclude Include="Systems\Events.h" />
+    <ClInclude Include="Graphics\Shader.h" />
+    <ClInclude Include="Deps\std_image.h" />
+    <ClInclude Include="Graphics\Texture.h" />
+    <ClInclude Include="Graphics\Mesh.h" />
+    <ClInclude Include="Graphics\Drawable.h" />
+    <ClInclude Include="Graphics\Cube.h" />
+    <ClInclude Include="Graphics\STLObject.h" />
+    <ClInclude Include="Graphics\Plane.h" />
+    <ClInclude Include="Graphics\Flashlight.h" />
+    <ClInclude Include="Graphics\LightSource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Systems\Camera.cpp" />
+    <ClCompile Include="Systems\Events.cpp" />
+    <ClCompile Include="Deps\glad.c" />
+    <ClCompile Include="main_lighting.cpp" />
+    <ClCompile Include="Graphics\Shader.cpp" />
+    <ClCompile Include="Deps\std_image.cpp" />
+    <ClCompile Include="Graphics\Texture.cpp" />
+    <ClCompile Include="Systems\Window.cpp" />
+    <ClCompile Include="Graphics\Mesh.cpp" />
+    <ClCompile Include="Graphics\Cube.cpp" />
+    <ClCompile Include="Graphics\STLObject.cpp" />
+    <ClCompile Include="Graphics\Plane.cpp" />
+    <ClCompile Include="Graphics\Flashlight.cpp" />
+    <ClCompile Include="Graphics\LightSource.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\frag.glsl" />
+    <None Include="Shaders\vert.glsl" />
+    <None Include="Shaders\fragSTL.glsl" />
+    <None Include="Shaders\lightFrag.glsl" />
+    <None Include="Shaders\lightVert.glsl" />
+    <None Include="Shaders\multiple_lights_frag.glsl" />
+    <None Include="Shaders\multiple_lights_vert.glsl" />
+    <None Include="Shaders\vertSTL.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resourсes\deepslate_bricks.png" />
+    <Image Include="Resources\deepslate_bricks.png" />
+  </ItemGroup>
+</Project>
